@@ -1,0 +1,98 @@
+div#ganbatte {
+    margin-top:1.0em;
+    text-align:center;
+}
+table#ganbatte-console {
+    width:100%;
+}
+table#ganbatte-console td {
+    width:50%;
+    vertical-align:top;
+}
+#ganbatte-choose-game label {
+    font-weight:600;
+    padding-right:0.5em;
+    text-transform:capitalize;
+}
+#ganbatte-choose-game input[type=submit] {
+    text-transform:capitalize;
+    margin:0;
+    padding:0;
+}
+#ganbatte-choose-game select {
+    margin-right:0.5em;
+}
+#ganbatte-game-control table,
+table#ganbatte-chart {
+    width:auto;
+    border-collapse:collapse;
+}
+#ganbatte-game-control table td {
+    width:auto;
+}
+#ganbatte-game-control table th {
+    text-align:left;
+}
+table#ganbatte-chart td {
+    width:auto;
+    text-align:center;
+}
+table#ganbatte-chart td span.romaji {
+    font-weight:600;
+}
+table#ganbatte-chart td span {
+    padding:5px;
+}
+table#ganbatte-console td#loading {
+    text-align:center;
+}
+table#ganbatte-console td#loading img {
+    margin-top:4.0em;
+}
+table#ganbatte-console td#kana-control table,
+table#ganbatte-console td#kana-control table td,
+table#ganbatte-console td#kana-choose table td,
+table#ganbatte-console td#kana-choose table {
+    width:auto;
+
+}
+table#ganbatte-console td#kana-control table td {
+    padding:0.3em;
+    text-align:center;
+    vertical-align:middle;
+    font-size:large;
+}
+table#ganbatte-console ul#kana-score {
+    list-style:none;
+    font-size:large;
+    padding-left:0;
+}
+table#ganbatte-console td#kana-choose table td {
+    text-align:center;
+    vertical-align:middle;
+    font-size:large;
+    white-space:nowrap;
+}
+table#ganbatte-console td#kana-choose table td a {
+    display:block;
+    margin:1.0em;
+}
+td#kana-choose {
+    text-align:left;
+}
+td#kana-choose span.bolder {
+    font-weight:600;
+}
+div#ganbatte-kana-control table td {
+    text-align:left;
+    vertical-align:middle;
+    width:auto;
+}
+div#ganbatte-kana-control label {
+    text-transform:capitalize;
+    padding-right:0.5em;
+    font-weight:600;
+}
+div#ganbatte-kana-control select {
+    margin-bottom:0.5em;
+}
